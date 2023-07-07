@@ -21,19 +21,19 @@ Dynamic programming is an optimization technique
 
 ## Charateristics and properties that make a problem solveable using dynamic programming
 
-1. Optimal Substructure
+1. Optimal Substructure->
    A problem has Optimal Substructure property when its optimal solution can be constructed from the optimal
    solutions of its sub problems.
    So by solving each sub problem in its most optimal way we obtain optimal solution to the whole problem
 
-2. Overlapping Subproblems
+2. Overlapping Subproblems->
    When we a break a problem to many sub problems you will notice that sometimes you need to recalculate
    some work multiple times eg fibonacci
    If there exist duplicate computations, then it means our approach will not work efficiently. e.g. redundant series, matrix multiplication etc.. so this makes our algorithm very slow as it needs to repeat same calculations
 
 ## The Different types of Dynamic Problems
 
-1. optimization problems
+1. optimization problems->
 In optimization problems we are interested in finding a strategy which maximizes or minimizes some function.
 In optimation problems we are not interested in the number of steps but the minimum number of steps.
 An example of a optimization problem is:
@@ -41,7 +41,7 @@ What is the minimum number of steps needed to get from point A to point B?
 What is the maximum profit gained by buying and selling a stock?
 What is the minimum cost to travel from New York to Mumbai?
 
-2. combinatoric problems
+2. combinatoric problems->
 The combinatoric problems answer the question how many?
 e.g.
 How many ways to make a change?
