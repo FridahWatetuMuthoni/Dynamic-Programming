@@ -9,7 +9,7 @@ such as optimal substructure, overlapping subproblems or recurrence relation wit
 
 1. Polynomial time complexity:
 O(n<sup>c</sup>) where c is a contant value.
-Some examples of the polynomial time complexity are O(n<sup>2</sup> 0and O(n<sup>3</sup>)
+Some examples of the polynomial time complexity are O(n<sup>2</sup>) and O(n<sup>3</sup>)
 
 2. Exponential time complexity:
 O(c<sup>n</sup>) where c is a constant.
