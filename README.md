@@ -7,13 +7,13 @@ Dynamic programming can be used to solve many problems in polynomial time for wh
 Therefore dynamic programming is a method that allows us to solve problems that have certain properties
 such as optimal substructure, overlapping subproblems or recurrence relation with closed form expression for each state
 
-polynomial time complexity:
-O(n<sup>c</sup>) where c is a contant value
-example of a polynomial time complexity is O(n<sup>2</sup> and O(n<sup>3</sup>))
+1. Polynomial time complexity:
+O(n<sup>c</sup>) where c is a contant value.
+Some examples of the polynomial time complexity are O(n<sup>2</sup> and O(n<sup>3</sup>))
 
-exponential time complexity:
-O(c<sup>n</sup>) where c is a constant
-example of a polynomial time complexity is O(2<sup>n</sup>)
+2. Exponential time complexity:
+O(c<sup>n</sup>) where c is a constant.
+An example of a polynomial time complexity is O(2<sup>n</sup>)
 
 problem -> dynamic programming blackbox -> solution
 
