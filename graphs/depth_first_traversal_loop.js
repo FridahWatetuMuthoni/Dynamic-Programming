@@ -6,7 +6,7 @@ const depth_first_print = (graph, start_node) => {
         let current = stack.pop()
         console.log(current)
         for (let neighbor of graph[current]) {
-            stack.push(neighbor)
+            stack.push(neighbor);
         }
     }
 }

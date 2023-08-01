@@ -14,7 +14,7 @@ const breadth_first_print = (graph, start_node) => {
 
 //adjacency list
 const graph = {
-    a: ['c', 'b'],
+    a: ['b', 'c'],
     b: ['d'],
     c: ['e'],
     d: ['f'],
