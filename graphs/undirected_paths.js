@@ -78,6 +78,7 @@ const has_path_breadth = (graph,src,dest)=>{
             }
         }
     }
+    return false
 
 }
 
